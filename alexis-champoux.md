@@ -2,9 +2,9 @@
 
 --Le bouton Stop ne reste pas lorsque je clique sur Pause
 
---Ajout de musique amusante     
+--Ajout de musique amusante
 
-```md
+```vue
 <template>
   <div>
     <div id="songPlayerControls" class="col-6">
@@ -148,6 +148,7 @@ export default defineComponent({
   },
 });
 </script>
+
 ```
 
 Trop d'information dans le SongPlayerControl, il est juste supposé emit la commande au component SongPlayer
