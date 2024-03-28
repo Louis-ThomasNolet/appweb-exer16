@@ -2,7 +2,7 @@
 
 --Le bouton Stop ne reste pas lorsque je clique sur Pause
 
---Ajout de musique amusante
+--Ajout de musique amusante     
 
 ```md
 <template>
