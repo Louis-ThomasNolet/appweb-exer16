@@ -1,49 +1,18 @@
 ---
 outline: deep
 ---
+# Revue du TP d'Alexis Champoux
 
-# Runtime API Examples
+## App.vue and it's components
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+### App.vue
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+-- Commentaire inutile
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+### SongPlayerControls.vue
 
-const { theme, page, frontmatter } = useData()
-</script>
+-- Le bouton stop disparait quand on fait pause
 
-## Results
+### SongPlayer.vue
 
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+-- Encore des console.log dans le fichier
